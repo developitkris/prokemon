@@ -24,3 +24,7 @@ body{
   height:100px;
   display:none;
 }
+
+#status-area{
+  display:none;
+}

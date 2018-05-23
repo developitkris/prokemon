@@ -6,7 +6,7 @@ import { Prokemon } from './prokemon.js';
 
 $(document).ready(function() {
 
-  
+
   $('#name-form').submit(function(event) {
     event.preventDefault();
     $('#name-form').toggle();
@@ -14,6 +14,7 @@ $(document).ready(function() {
     var name=$('#name').val();
     var type=$('input:radio[name=type]:checked').val();
     var image="";
+    var ability="";
 
     if (type=="rock"){
       $("#rockImage").toggle();
@@ -23,12 +24,17 @@ $(document).ready(function() {
       $("#boxImage").toggle();
     }
 
+
     var myProkemon = new Prokemon(name, type);
 
     //var myProkemon = newProkemon(type);
     $('#status-area').append("<h3>"+myProkemon.name+"</h3>");
     $('#status-area').append("<h3>"+myProkemon.type+"</h3>");
+    $('#playerLevelDisplay').text(myProkemon.level);
+    $('#playerHPDisplay').text(myProkemon.hp);
+    $('#playerAbilitiesDisplay').text(myProkemon.ability);
 
+    $('#status-area').toggle();
 
     // var goal = $('#goal').val();
     // var output = starter(goal);
