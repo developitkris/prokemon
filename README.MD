@@ -5,7 +5,7 @@ Setup instructions:
 NPM must be installed.
 
 * git clone
-* cd to Starter (or new project name root directory)
+* cd to Prokemon (or new project name root directory)
 * npm install
 
 * in webpack.config.js change name of Title from 'Starter' to your new project name
