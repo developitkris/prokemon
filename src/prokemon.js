@@ -1,8 +1,7 @@
 export class Prokemon {
 
-  constructor (name="", img="", type="", level="", hp="", ability="", happiness="") {
+  constructor (name="", type="", level="", hp="", ability="", happiness="") {
       this.name = name;
-      this.img = img;
       this.type = type;
       this.level = level;
       this.hp = hp;

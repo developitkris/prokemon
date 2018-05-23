@@ -8,3 +8,19 @@ body{
   text-shadow:  2px 2px #ff0000;
 
 }
+
+#rockImage{
+  width:100px;
+  height:100px;
+  display:none;
+}
+#fireImage{
+  width:100px;
+  height:100px;
+  display:none;
+}
+#boxImage{
+  width:100px;
+  height:100px;
+  display:none;
+}

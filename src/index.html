@@ -19,8 +19,8 @@
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="type" value="water">
-          water type
+          <input type="radio" name="type" value="box">
+          box type
         </label>
       </div>
       <div class="radio">
@@ -28,17 +28,6 @@
           <input type="radio" name="type" value="rock">
           rock type
         </label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="type" value="plant">
-            plant type
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="type" value="air">
-            air type
-          </label>
       </div>
       <label for="name">Choose your Prokemon's name</label>
       <input type="text" name="" id="name" placeholder="Peekachoo" value="" required>
@@ -56,5 +45,8 @@
         </ul>
       </p>
     </div>
+    <img id="rockImage" src=<%=require("./img/rockProkemon.png") %> />
+    <img id="boxImage" src=<%=require("./img/boxProkemon.png") %> />
+    <img id="fireImage" src=<%=require("./img/fireProkemon.png") %> />
   </body>
 </html>
