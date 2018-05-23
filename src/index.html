@@ -7,5 +7,54 @@
   <body>
     <h1>PROKEMON</h1>
     <h3>Begin your spiritual Prokemon journey!</h3>
+
+    <form id="name-form">
+
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="type" value="fire" checked>
+          fire type
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="type" value="water">
+          water type
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="type" value="rock">
+          rock type
+        </label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="type" value="plant">
+            plant type
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="type" value="air">
+            air type
+          </label>
+      </div>
+      <label for="name">Choose your Prokemon's name</label>
+      <input type="text" name="" id="name" placeholder="Peekachoo" value="" required>
+      <button type="submit" class="btn btn-warning" name="button">I choose you!</button>
+
+    </form>
+
+    <div id="status-area">
+      <p>
+        <ul "proke-stats">
+          <li>Level: </li>
+          <li>HP: </li>
+          <li>Abilities: </li>
+          <li>Happiness: </li>
+        </ul>
+      </p>
+    </div>
   </body>
 </html>

@@ -1,11 +1,4 @@
 export class Prokemon {
-  // name:" ";
-  // img:" ";
-  // type:" ";
-  // level:" ";
-  // hp: " ";
-  // ability: " ";
-  // happiness: " ";
 
   constructor (name="", img="", type="", level="", hp="", ability="", happiness="") {
       this.name = name;
@@ -16,14 +9,10 @@ export class Prokemon {
       this.ability = ability;
       this.happiness = happiness;
   }
-
-  // public var getName(){
-  //   return name;
-  // }
 }
 
-class inventory {
-  constructor (food, stone, medicine) {
+export class Inventory {
+  constructor (food="", stone="", medicine="") {
       this.food = food;
       this.stone = stone;
       this.medicine = medicine;
@@ -38,13 +27,9 @@ export class Environment {
   }
 }
 
-class storage {
-  constructor (backpack, lab) {
+export class Storage {
+  constructor (backpack="", lab="") {
       this.backpack = backpack;
       this.lab = lab;
   }
-}
-
-class element {
-
 }

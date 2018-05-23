@@ -1,5 +1,10 @@
 body{
   /*background-color: #7FDBFF;*/
   background: url("./img/nature.jpg");
+  background-repeat-y: no-repeat;
+  background-size: 100vh 100vw;
+
+  color:yellow;
+  text-shadow:  2px 2px #ff0000;
 
 }
