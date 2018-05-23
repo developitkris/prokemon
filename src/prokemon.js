@@ -31,9 +31,9 @@ export class Prokemon {
 
 
 export class Inventory {
-  constructor (food="", stone="", medicine="") {
+  constructor (food="", spell="", medicine="") {
       this.food = food;
-      this.stone = stone;
+      this.stone = spell;
       this.medicine = medicine;
   }
 }
