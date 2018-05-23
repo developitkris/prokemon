@@ -30,8 +30,8 @@ class inventory {
   }
 }
 
-class environment {
-  constructor (gym, travel, hospital) {
+export class Environment {
+  constructor (gym="", travel="", hospital="") {
       this.gym = gym;
       this.travel = travel;
       this.hospital = hospital;

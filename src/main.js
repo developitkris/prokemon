@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import { prokemon } from './prokemon.js';
+import { Prokemon } from './prokemon.js';
 
 $(document).ready(function() {
   $('#starter-form').submit(function(event) {
