@@ -25,6 +25,44 @@ body{
   display:none;
 }
 
+#enemyRockImage{
+  width:100px;
+  height:100px;
+  display:none;
+}
+#enemyFireImage{
+  width:100px;
+  height:100px;
+  display:none;
+}
+#enemyBoxImage{
+  width:100px;
+  height:100px;
+  display:none;
+}
+#enemyRockImage2{
+  width:100px;
+  height:100px;
+
+}
+#enemyFireImage2{
+  width:100px;
+  height:100px;
+
+}
+#enemyBoxImage2{
+  width:100px;
+  height:100px;
+
+}
+
 #status-area{
+  display:none;
+}
+
+#chooseEnemy{
+  display:none;
+}
+#enemy{
   display:none;
 }

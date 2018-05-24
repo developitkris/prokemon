@@ -35,17 +35,56 @@
 
     </form>
 
-    <div id="status-area">
-      <p>
-        <ul "proke-stats">
-          <li>Level: <span id="playerLevelDisplay"></span></li>
-          <li>HP: <span id="playerHPDisplay"></span></li>
-          <li>Abilities: <span id="playerAbilitiesDisplay"></span></li>
-        </ul>
-      </p>
+    <div id="status-area" class="container">
+      <div class="row" id="row1">
+        <div class= "col col-lg-6" id= "my-proke">
+          <h1>My Proke Stats</h1>
+          <img id="rockImage" src=<%=require("./img/rockProkemon.png") %> />
+          <img id="boxImage" src=<%=require("./img/boxProkemon.png") %> />
+          <img id="fireImage" src=<%=require("./img/fireProkemon.png") %> />
+          <p>
+            <ul id="my-proke-stats">
+              <h3><span id="playerNameDisplay"></span></h3>
+              <li>Type: <span id="playerTypeDisplay"></span></li>
+              <li>Level: <span id="playerLevelDisplay"></span></li>
+              <li>HP: <span id="playerHPDisplay"></span></li>
+              <li>Abilities: <span id="playerAbilitiesDisplay"></span></li>
+            </ul>
+          </p>
+        </div>
+      <div class="col col-lg-6" id="enemy">
+        <h1>Enemy Stats</h1>
+        <img id="enemyRockImage" src=<%=require("./img/rockProkemon.png") %> />
+        <img id="enemyBoxImage" src=<%=require("./img/boxProkemon.png") %> />
+        <img id="enemyFireImage" src=<%=require("./img/fireProkemon.png") %> />
+          <p>
+            <ul id="enemy-proke-stats">
+              <h3><span id="enemyNameDisplay"></span></h3>
+              <li>Type: <span id="enemyTypeDisplay"></span></li>
+              <li>Level: <span id="enemyLevelDisplay"></span></li>
+              <li>HP: <span id="enemyHPDisplay"></span></li>
+              <li>Abilities: <span id="enemyAbilitiesDisplay"></span></li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
-    <img id="rockImage" src=<%=require("./img/rockProkemon.png") %> />
-    <img id="boxImage" src=<%=require("./img/boxProkemon.png") %> />
-    <img id="fireImage" src=<%=require("./img/fireProkemon.png") %> />
+
+    <form id="chooseEnemy">
+      <h3>Choose your opponent</h3>
+      <button id="enemyButton1" type="button" class="btn btn-primary">Bart</button>
+      <img id="enemyRockImage2" src=<%=require("./img/rockProkemon.png") %> />
+      <button id="enemyButton2" type="button" class="btn btn-primary">Dan</button>
+      <img id="enemyBoxImage2" src=<%=require("./img/boxProkemon.png") %> />
+      <button id="enemyButton3" type="button" class="btn btn-primary">Abby</button>
+      <img id="enemyFireImage2" src=<%=require("./img/fireProkemon.png") %> />
+    </form>
+
+
+
+
+    <!-- <button type="button" class="btn btn-danger" id="battle">Battle Time!</button> -->
+
   </body>
 </html>
