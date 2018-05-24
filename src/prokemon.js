@@ -1,37 +1,45 @@
+//start Proke stats
 export class Prokemon {
 
-  constructor (name="", type="", level="1", hp="50", ability="") {
+  constructor (name="", level="1", hp="50", ability="") {
       this.name = name;
-      this.type = type;
       this.level = level;
       this.hp = hp;
       this.ability = ability;
   }
-  // public void attack(){
-  //   Math.random()
-  // }
 
-  // function attack(){
-  //   let damage=0;
-  //   let heal="";
-  //   if(Prokemon.ability > enemy.ability) {
-  //     Prokemon.hp -= 10;
-  //     damage += 20;
-  //     if()
-  //
-  //
-  //   }
+  attack(otherProkemon){
+    if(this.ability > otherProkemon.ability) {
+      this.hp += 10;
+    } else {
+      this.hp -= 10;
+    }
+  }
+  defend(otherProkemon) {
+    if(this.ability >= otherProkemon.ability) {
+      this.hp += 5;
+    } else {
+      this.hp -+ 5;
+    }
+  }
+  surrender(otherProkemon) {
+      this.hp = 0;
+  }
 }
-// class RockType extends Prokemon{
-//
-//   skills(){
-//
-//   }
-//
-//
-//
-// }
 
+// instance of Prokemon
+export class Fire extends Prokemon {
+    constructor(hp) {
+      super();
+      this.ability = 50;
+      this.hp = hp;
+    }
+  }
+  let myProkemon = new Prokemon(300);
+  let myFireType = new Fire ("firey", 4, 70, "fly");
+  myFireType.attack();
+
+//start inventory stats
 export class Inventory {
   constructor (food="", spell="", medicine="") {
       this.food = food;
