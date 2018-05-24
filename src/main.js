@@ -9,6 +9,7 @@ $(document).ready(function() {
 
   $('#name-form').submit(function(event) {
     event.preventDefault();
+
     $('#name-form').toggle();
 
     var name=$('#name').val();
@@ -37,6 +38,7 @@ $(document).ready(function() {
     $('#playerAbilitiesDisplay').text(myProkemon.ability);
 
     $('#status-area').toggle();
+
     $('#chooseEnemy').toggle();
 
     // var goal = $('#goal').val();
@@ -75,6 +77,7 @@ $(document).ready(function() {
     $('#chooseEnemy').toggle();
     $('#enemy').show();
     $('#enemyRockImage').toggle();
+    $('#battle-btns').show();
     //$('enemy-proke-stats').toggle();
   });
   $('#enemyButton2').click(function() {
@@ -87,6 +90,7 @@ $(document).ready(function() {
     $('#chooseEnemy').toggle();
     $('#enemy').show();
     $('#enemyBoxImage').toggle();
+    $('#battle-btns').show();
     //$('enemy-proke-stats').toggle();
   });
   $('#enemyButton3').click(function() {
@@ -99,6 +103,7 @@ $(document).ready(function() {
     $('#chooseEnemy').toggle();
     $('#enemy').show();
     $('#enemyFireImage').toggle();
+    $('#battle-btns').show();
     //$('enemy-proke-stats').toggle();
   });
 });

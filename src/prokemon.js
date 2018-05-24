@@ -7,18 +7,21 @@ export class Prokemon {
       this.hp = hp;
       this.ability = ability;
   }
-
   // public void attack(){
   //   Math.random()
   // }
 
-
-
-
-
-
+  // function attack(){
+  //   let damage=0;
+  //   let heal="";
+  //   if(Prokemon.ability > enemy.ability) {
+  //     Prokemon.hp -= 10;
+  //     damage += 20;
+  //     if()
+  //
+  //
+  //   }
 }
-
 // class RockType extends Prokemon{
 //
 //   skills(){
@@ -28,7 +31,6 @@ export class Prokemon {
 //
 //
 // }
-
 
 export class Inventory {
   constructor (food="", spell="", medicine="") {

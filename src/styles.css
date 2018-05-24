@@ -1,8 +1,10 @@
-body{
+body {
+  height: 1280px;
   /*background-color: #7FDBFF;*/
   background: url("./img/nature.jpg");
   background-repeat-y: no-repeat;
-  background-size: 100vh 100vw;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 
   color:yellow;
   text-shadow:  2px 2px #ff0000;
@@ -64,5 +66,9 @@ body{
   display:none;
 }
 #enemy{
+  display:none;
+}
+
+#battle-btns{
   display:none;
 }
