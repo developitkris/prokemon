@@ -25,7 +25,7 @@ NPM must be installed.
 * in package.json change "name": "Starter" to your new project name
 * change the name of the starter.js file and a few spots in the main.js file
 * Run "npm run start"
-* Navigate to localhost:/8000
+* Navigate to http://localhost:8000
 
 # Known Bugs
 No known bugs to date
@@ -40,5 +40,5 @@ No known bugs to date
 * ESlint
 
 # License
-Copyright (c) 2018 Alex Noble and Kristi Hwang
+Copyright (c) 2018 Kristi Hwang & Alex Noble
 This software is licensed under the MIT license.
